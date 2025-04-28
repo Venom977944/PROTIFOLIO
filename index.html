@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aryan Creative Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- 3D Animated Background -->
+    <div class="three-d-bg"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles"></div>
+    
+    <!-- Glowing Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    
+    <!-- Advanced Cursor System -->
+    <div class="cursor cursor-outer"></div>
+    <div class="cursor cursor-inner"></div>
+    <div class="cursor cursor-text"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Animated Header -->
+        <header class="header">
+            <div class="header-left">
+                <a href="#" class="logo" data-cursor="scale">DEV</a>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#work" data-cursor="scale">Work</a></li>
+                        <li><a href="#about" data-cursor="scale">About</a></li>
+                        <li><a href="#contact" data-cursor="scale">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle" data-cursor="scale">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section with 3D Text -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line animate__animated animate__fadeInUp">
+                        <span class="word">Hi,</span>
+                        <span class="word">I'm</span>
+                        <span class="word">Aryan</span>
+                    </span>
+                    <span class="title-line animate__animated animate__fadeInUp animate__delay-1s">
+                        <span class="word">Web</span>
+                        <span class="word">Developer</span>
+                    </span>
+                </h1>
+                <div class="hero-subtitle animate__animated animate__fadeIn animate__delay-2s">
+                    <p>Creating immersive digital experiences with cutting-edge technology</p>
+                </div>
+                <div class="hero-links animate__animated animate__fadeIn animate__delay-3s">
+                    <a href="#work" class="btn btn-primary" data-cursor="scale">
+                        <span>Explore My Work</span>
+                        <div class="btn-hover"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" data-cursor="scale">
+                        <span>Let's Connect</span>
+                        <div class="btn-hover"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll animate__animated animate__fadeIn animate__delay-4s">
+                <div class="scroll-text">Scroll Down</div>
+                <div class="scroll-line">
+                    <div class="scroll-dot"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section with Hover 3D Effect -->
+        <section id="work" class="work">
+            <div class="section-header">
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="section-subtitle">Where creativity meets functionality</div>
+            </div>
+            <div class="projects-grid">
+                <a href="https://quiz-sepia-seven.vercel.app/" class="project-card" target="_blank" data-cursor="view">
+                    <div class="project-image">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" alt="Quiz App" class="project-img">
+                            <div class="project-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Interactive Web App</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Quiz Platform</h3>
+                        <p class="project-description">Dynamic quiz application with real-time scoring and multiple categories</p>
+                        <div class="project-link">
+                            <span>View Case Study</span>
+                            <div class="link-arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-glow"></div>
+                </a>
+                
+                <div class="project-card coming-soon" data-cursor="view">
+                    <div class="project-image">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" alt="E-commerce" class="project-img">
+                            <div class="coming-soon-label">
+                                <span>Coming Soon</span>
+                            </div>
+                            <div class="project-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">E-commerce</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Modern Storefront</h3>
+                        <p class="project-description">Next-gen shopping experience with 3D product previews</p>
+                        <div class="project-link">
+                            <span>In Development</span>
+                        </div>
+                    </div>
+                    <div class="project-glow"></div>
+                </div>
+                
+                <div class="project-card coming-soon" data-cursor="view">
+                    <div class="project-image">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" alt="Portfolio" class="project-img">
+                            <div class="coming-soon-label">
+                                <span>Coming Soon</span>
+                            </div>
+                            <div class="project-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Creative Portfolio</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Interactive Portfolio</h3>
+                        <p class="project-description">WebGL powered portfolio with 3D elements</p>
+                        <div class="project-link">
+                            <span>In Development</span>
+                        </div>
+                    </div>
+                    <div class="project-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section with Animated Timeline -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <div class="section-subtitle">The mind behind the magic</div>
+                    </div>
+                    <div class="about-text">
+                        <p>I'm Aryan, a creative developer with a passion for building immersive digital experiences that push boundaries. My work combines cutting-edge technology with thoughtful design to create memorable interactions.</p>
+                        <p>With expertise in modern web technologies and a keen eye for detail, I bring ideas to life in ways that captivate and engage audiences.</p>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills-title">Technical Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="98">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5/CSS3</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="95">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">Three.js</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Aryan" class="profile-img">
+                        </div>
+                        <div class="image-glow"></div>
+                        <div class="image-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section with Interactive Form -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-subtitle">Get in touch for collaborations</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item" data-cursor="scale">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">Email</span>
+                            <a href="mailto:ag9660814@gmail.com" class="info-value">ag9660814@gmail.com</a>
+                        </div>
+                        <div class="info-hover"></div>
+                    </div>
+                    <div class="info-item" data-cursor="scale">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">Phone</span>
+                            <a href="tel:9779445023" class="info-value">+91 9779445023</a>
+                        </div>
+                        <div class="info-hover"></div>
+                    </div>
+                    <div class="info-item" data-cursor="scale">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">Location</span>
+                            <span class="info-value">India</span>
+                        </div>
+                        <div class="info-hover"></div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-cursor="scale">
+                            <span>Send Message</span>
+                            <div class="btn-hover"></div>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-link" data-cursor="scale">
+                    <i class="fab fa-github"></i>
+                    <div class="social-hover"></div>
+                </a>
+                <a href="#" target="_blank" class="social-link" data-cursor="scale">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div class="social-hover"></div>
+                </a>
+                <a href="#" target="_blank" class="social-link" data-cursor="scale">
+                    <i class="fab fa-twitter"></i>
+                    <div class="social-hover"></div>
+                </a>
+                <a href="#" target="_blank" class="social-link" data-cursor="scale">
+                    <i class="fab fa-instagram"></i>
+                    <div class="social-hover"></div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer with Animated Signature -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">DEV</div>
+                <div class="footer-nav">
+                    <a href="#work" data-cursor="scale">Work</a>
+                    <a href="#about" data-cursor="scale">About</a>
+                    <a href="#contact" data-cursor="scale">Contact</a>
+                </div>
+                <div class="footer-copy">
+                    &copy; <span class="year">2023</span> All rights reserved
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
